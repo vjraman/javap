@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customerList><customers>
+      <customer name="tim" >
+        <phoneNumbers>
+           <phoneNumber type="work">555-1111</phoneNumber>
+           <phoneNumber type="home">555-2222</phoneNumber>
+           <phoneNumber type="cell">732-347-5259</phoneNumber>
+       </phoneNumbers>
+      </customer>
+        <customer name="tom">
+            <phoneNumbers>
+                <phoneNumber type="work">732-155-1111</phoneNumber>
+                <phoneNumber type="home">732-555-1222</phoneNumber>
+                <phoneNumber type="cell">732-347-5259</phoneNumber>
+            </phoneNumbers>
+        </customer>
+    </customers></customerList>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weeklymenu>
+    <dishlist>
+        <dishes>
+            <dish title="chole"></dish>
+            <dish title="spinach"></dish>
+            <dish title="chappati"></dish>
+        </dishes>
+    </dishlist>
+
+    <daylist>
+        <days>
+            <day title="Monday">
+                <meals>
+                    <meal title="breakfast"></meal>
+                    <meal title="lunch"></meal>
+                    <meal title="snack"></meal>
+                    <meal title="dinner"></meal>
+                </meals>
+            </day>
+            <day title="Tuesday">
+                <meals>
+                    <meal title="breakfast"></meal>
+                    <meal title="lunch"></meal>
+                    <meal title="snack"></meal>
+                    <meal title="dinner"></meal>
+                </meals>
+            </day>
+            <day title="Wednesday">
+                <meals>
+                    <meal title="breakfast"></meal>
+                    <meal title="lunch"></meal>
+                    <meal title="snack"></meal>
+                    <meal title="dinner"></meal>
+                </meals>
+            </day>
+            <day title="Thursday">
+                <meals>
+                    <meal title="breakfast"></meal>
+                    <meal title="lunch"></meal>
+                    <meal title="snack"></meal>
+                    <meal title="dinner"></meal>
+                </meals>
+            </day>
+            <day title="Friday">
+                <meals>
+                    <meal title="breakfast"></meal>
+                    <meal title="lunch"></meal>
+                    <meal title="snack"></meal>
+                    <meal title="dinner"></meal>
+                </meals>
+            </day>
+            <day title="Saturday">
+                <meals>
+                    <meal title="breakfast"></meal>
+                    <meal title="lunch"></meal>
+                    <meal title="snack"></meal>
+                    <meal title="dinner"></meal>
+                </meals>
+            </day>
+            <day title="Sunday">
+                <meals>
+                    <meal title="breakfast"></meal>
+                    <meal title="lunch"></meal>
+                    <meal title="snack"></meal>
+                    <meal title="dinner"></meal>
+                </meals>
+            </day>
+        </days>
+    </daylist>
+</weeklymenu>
