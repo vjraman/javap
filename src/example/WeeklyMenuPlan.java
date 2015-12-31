@@ -2,18 +2,26 @@ package example;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathFactory;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 
 /**
  * Created by rags on 12/28/2015.
@@ -36,10 +44,14 @@ class Save implements ActionListener
 
             TransformerFactory tFactory = TransformerFactory.newInstance();
             Transformer transformer = tFactory.newTransformer();
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+            transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
 
             DOMSource source = new DOMSource(this.doc);
-            StreamResult result = new StreamResult(System.out);
+            FileOutputStream fos= new java.io.FileOutputStream("src/weeklymenu.xml");
+            StreamResult result = new StreamResult(fos);
             transformer.transform(source, result);
+            fos.close();
         }
         catch(Exception ex)
         {
@@ -68,6 +80,18 @@ public class WeeklyMenuPlan extends JFrame
            dbf.setNamespaceAware(true);
            DocumentBuilder db = dbf.newDocumentBuilder();
            Document document = db.parse("src/weeklymenu.xml");
+
+           XPathFactory xpathFactory = XPathFactory.newInstance();
+           // XPath to find empty text nodes.
+           XPathExpression xpathExp = xpathFactory.newXPath().compile("//text()[normalize-space(.) = '']");
+           NodeList emptyTextNodes = (NodeList)xpathExp.evaluate(document, XPathConstants.NODESET);
+
+           // Remove each empty text node from document.
+           for (int i = 0; i < emptyTextNodes.getLength(); i++)
+           {
+               Node emptyTextNode = emptyTextNodes.item(i);
+               emptyTextNode.getParentNode().removeChild(emptyTextNode);
+           }
 
         Element dishE = (Element) document.getDocumentElement().getChildNodes().item(0);
         Element mealE = (Element) document.getDocumentElement().getChildNodes().item(1);

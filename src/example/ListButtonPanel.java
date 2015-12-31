@@ -68,7 +68,6 @@ class DroppedElementListener extends DropTargetAdapter implements DropTargetList
             Element m = jbmt.getElement();
             if (event.isDataFlavorSupported(dataFlavor))
             {
-                System.out.println("Supported:");
                 event.acceptDrop(DnDConstants.ACTION_MOVE);
                 this.jpanel.addElement(m,true);
                 if(jpanel.isMove())
@@ -149,9 +148,7 @@ public class ListButtonPanel extends JPanel
             DragButton jb = (DragButton) ca[i];
             if (jb.getElement().getAttribute("title").equals(element.getAttribute("title")))
             {
-                System.out.println("TRUE!!!");
                 remove(jb);
-
             }
 
             repaint();

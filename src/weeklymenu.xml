@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<weeklymenu><dishlist><dishes><dish title="chole"></dish><dish title="spinach"></dish><dish title="chappati"></dish></dishes></dishlist><meallist><meals></meals></meallist></weeklymenu>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<weeklymenu>
+  <dishlist>
+    <dishes>
+      <dish title="chappati"/>
+    </dishes>
+  </dishlist>
+  <meallist>
+    <meals>
+      <dish title="spinach"/>
+      <dish title="chole"/>
+    </meals>
+  </meallist>
+</weeklymenu>
