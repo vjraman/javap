@@ -1,6 +1,7 @@
 package example;
 
 import org.w3c.dom.Element;
+import org.w3c.dom.events.EventTarget;
 
 import javax.swing.*;
 

@@ -70,7 +70,9 @@ class DroppedElementListener extends DropTargetAdapter implements DropTargetList
             {
                 event.acceptDrop(DnDConstants.ACTION_MOVE);
                 this.jpanel.addElement(m,true);
-                if(jpanel.isMove())
+
+                boolean moveoriginal = ((ListButtonPanel)ListButtonPanel.dragPanels.get(jbmt.getDragPanelId())).isMove();
+                if(moveoriginal)
                 {
                     ((ListButtonPanel)ListButtonPanel.dragPanels.get(jbmt.getDragPanelId())).removeElement(m);
                 }
@@ -105,12 +107,25 @@ public class ListButtonPanel extends JPanel
         return move;
     }
 
-    public  ListButtonPanel(Element el, Document document, boolean move)
+    public ListButtonPanel(Document document, boolean move)
     {
         this.document = document;
         this.move=move;
         dragPanels.put(dragPanelId,this);
-        container = el.getChildNodes().item(0);
+        //setLayout(new BorderLayout());
+
+    }
+
+    public  ListButtonPanel(Element el, Document document, boolean move)
+    {
+        this(document, move);
+        update(el);
+    }
+
+    public void update(Element el)
+    {
+        removeAll();
+        container = el;
         NodeList nl  = container.getChildNodes();
         for(int i = 0;i<nl.getLength();i++)
         {

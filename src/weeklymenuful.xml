@@ -1,71 +1,449 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <weeklymenu>
-    <dishlist>
-        <dishes>
-            <dish title="chole"></dish>
-            <dish title="spinach"></dish>
-            <dish title="chappati"></dish>
-        </dishes>
-    </dishlist>
-
-    <daylist>
-        <days>
-            <day title="Monday">
-                <meals>
-                    <meal title="breakfast"></meal>
-                    <meal title="lunch"></meal>
-                    <meal title="snack"></meal>
-                    <meal title="dinner"></meal>
-                </meals>
-            </day>
-            <day title="Tuesday">
-                <meals>
-                    <meal title="breakfast"></meal>
-                    <meal title="lunch"></meal>
-                    <meal title="snack"></meal>
-                    <meal title="dinner"></meal>
-                </meals>
-            </day>
-            <day title="Wednesday">
-                <meals>
-                    <meal title="breakfast"></meal>
-                    <meal title="lunch"></meal>
-                    <meal title="snack"></meal>
-                    <meal title="dinner"></meal>
-                </meals>
-            </day>
-            <day title="Thursday">
-                <meals>
-                    <meal title="breakfast"></meal>
-                    <meal title="lunch"></meal>
-                    <meal title="snack"></meal>
-                    <meal title="dinner"></meal>
-                </meals>
-            </day>
-            <day title="Friday">
-                <meals>
-                    <meal title="breakfast"></meal>
-                    <meal title="lunch"></meal>
-                    <meal title="snack"></meal>
-                    <meal title="dinner"></meal>
-                </meals>
-            </day>
-            <day title="Saturday">
-                <meals>
-                    <meal title="breakfast"></meal>
-                    <meal title="lunch"></meal>
-                    <meal title="snack"></meal>
-                    <meal title="dinner"></meal>
-                </meals>
-            </day>
-            <day title="Sunday">
-                <meals>
-                    <meal title="breakfast"></meal>
-                    <meal title="lunch"></meal>
-                    <meal title="snack"></meal>
-                    <meal title="dinner"></meal>
-                </meals>
-            </day>
-        </days>
-    </daylist>
+  <trash>
+    <dish title="spinach"/>
+  </trash>
+  <sample>
+    <dish title="sambar">baked tofu with soyradish, drumstick, okra, onion
+garlic</dish>
+  </sample>
+  <dishes>
+    <dish title="chole"/>
+    <dish title="spinach"/>
+    <dish title="chappati"/>
+    <dish title="pasta"/>
+    <dish title="noodles"/>
+    <dish title="tofu">baked tofu with soy</dish>
+    <dish title="sambar">baked tofu with soyradish, drumstick, okra, onion
+garlic</dish>
+  </dishes>
+  <user>1</user>
+  <weeks>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+          <dish title="spinach"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch">
+          <dish title="sambar">baked tofu with soyradish, drumstick, okra, onion
+garlic</dish>
+          <dish title="tofu">baked tofu with soy</dish>
+          <dish title="chappati"/>
+          <dish title="chole"/>
+          <dish title="spinach"/>
+        </meal>
+        <meal title="snack">
+          <dish title="chole"/>
+        </meal>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="lunch">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast"/>
+        <meal title="lunch">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack">
+          <dish title="chole"/>
+        </meal>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast"/>
+        <meal title="lunch">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast"/>
+        <meal title="lunch">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack">
+          <dish title="chole"/>
+        </meal>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast"/>
+        <meal title="lunch">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast"/>
+        <meal title="lunch">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack">
+          <dish title="chole"/>
+        </meal>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast">
+          <dish title="spinach"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast"/>
+        <meal title="lunch">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+    <week>
+      <day title="Monday">
+        <meal title="breakfast">
+          <dish title="chappati"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Tuesday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Wednesday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Thursday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Friday">
+        <meal title="breakfast">
+          <dish title="chole"/>
+        </meal>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Saturday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+      <day title="Sunday">
+        <meal title="breakfast"/>
+        <meal title="lunch"/>
+        <meal title="snack"/>
+        <meal title="dinner"/>
+      </day>
+    </week>
+  </weeks>
 </weeklymenu>
